@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cloud  Build Ltd</title>
+    <meta name="description" content="Cloud Infrastructure Consultancy">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/cb.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- <script src="https://cdn.amcapi.com/translation/cloudtranslation-1.0.0.min.js" crossorigin="anonymous"></script> -->
+    <!-- <script src="scripts/main.js"></script>  -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158916293-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-158916293-1');
+    </script>
+</head>
+<body>
+
+    <!-- Scroll to top button -->
+    <a href="#" id="scroll" style="display: none;"><span></span></a>
+    <!-- Heading -->
+    <div class="container-fluid bg-cbgrey">
+        <div class="row">
+            <!-- Comppany Logo -->
+            <div class="col-sm-2">
+                <div>
+                    <img src="img/cb-logo-small.jpeg" />
+                </div>
+            </div>
+           <!-- Company Title -->
+           <div class="col-sm-8">
+            <h1 class="heading-cbblue-center">Cloud Build Limited</h2>
+            <h5 class="subheading-black-center">Cloud Infrastructure & Platform Solutions</h5>
+        </div>
+            <!-- contact details/social media links -->
+            <div class="col-sm-2">
+                <h5>
+                    <a class="nav-link" href="#" data-toggle = "modal" data-target= "#contactus">
+                        <img src="img/icon/email-icon.png" />info@cloudbuildltd.co.uk
+                    </a>
+                </h5>
+            </div>
+        </div>
+    </div>
+<!-- NavBar -->
+<div class="container-fluid"></div>
+<nav class="navbar navbar-expand-sm navbar-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse mx-auto" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto mx-auto">
+        <li class="nav-item">
+            <a class="navbar-brand" href="#">
+                <img src="img/icon/cb-logo-new.ico" alt="Cloud Build Ltd" style="width:40px;">
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#aboutus">About Us</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#ourservices">Our Services</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#" data-toggle = "modal" data-target= "#contactus">Contact Us</a>
+        </li>
+    </ul>
+    </div>
+</nav>
+    <!-- About Us -->
+    <div class="container-fluid">
+        <div class="heading-cbcentre" id="aboutus">
+            <br /><br />
+            <h1 class="col-sm-12"><kbd class="heading-cbblue-center">
+                <img src="img/icon/cb-logo-new.ico" alt="Cloud Build Ltd" style="width:40px;">
+                About Us</kbd>
+            </h1>
+            <h3>Independent consultancy specialising in providing custom infrastructure and public 
+            cloud platform solutions, with a strong focus on reliability through automation</h3>
+        </div>
+    </div>
+    <!-- Our Services -->
+    <div class="container-fluid">
+        <div class="heading-cbcentre" id="ourservices">
+            <br /><br />
+            <h1 class="col-sm-12"><kbd class="heading-cbblue-center">
+                <img src="img/icon/cb-logo-new.ico" alt="Cloud Build Ltd" style="width:40px;">
+                Our Services</kbd>
+            </h1>
+            <h2>Infrastructure as Code</h2>
+            <h2>Public Cloud Solutions</h2>
+            <h2>Kubernetes Platform Solutions</h2>
+            <h2>Continuous Integration and Deployment</h2>
+        </div>
+    </div>
+
+
+       <!-- Contact Us Modal -->
+    <!-- The Modal -->
+    <div class="modal" id="contactus">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Contact Us</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+      
+            <!-- Modal body -->
+            <div class="modal-body">
+                <form method="POST" translate="yes" action="https://formspree.io/xjvrzqpn">
+                    <div class="container">
+                        <span>Your Email:</span><br/>
+                        <input type="email" name="_replyto" placeholder="Email">
+                    </div>
+                    <p />
+                    <div class="container">
+                            <span>Enter Your Message:</span><br/>
+                        <textarea name="message" placeholder=""></textarea>
+                    </div>  
+                    <p />
+                    <div class="container">
+                        <button type="submit">Send Message</button>
+                    </div>
+                </form>
+                <br />
+                <img src="img/icon/email-icon.png" /> <b>info@cloudbuildltd.co.uk</b>
+            </div>
+      
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <!-- <button type="submit" class="btn btn-success" data-dismiss="modal">Send Message</button> -->
+            </div>
+      
+          </div>
+        </div>
+      </div>
+</body>
+</html>

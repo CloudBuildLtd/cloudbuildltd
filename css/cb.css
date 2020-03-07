@@ -1,0 +1,108 @@
+.bg-cbgrey {
+    background-color: #BCBCBC;
+}
+
+.heading-cbblue-center {
+    color: rgb(75, 155, 218);
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: 0.5px 0.5px black;
+    background-color: #BCBCBC;
+}
+
+.subheading-black-center {
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.heading-cbcentre {
+    display: block;
+    margin: 0px 0 50px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 50px;
+        margin-left: 0px;
+    text-align: center;
+    color: #BCBCBC;
+}
+
+
+/* Custom navbar CSS using: https://work.smarchal.com/twbscolor/4.0.0/css/800000902216ecf0f1C5B3581 */
+.navbar {
+    /* background-color: #848587; */
+    background-color: black;
+  
+  }
+  .navbar .navbar-brand {
+    color: #ecf0f1;
+  }
+  .navbar .navbar-brand:hover,
+  .navbar .navbar-brand:focus {
+    color: rgb(75, 155, 218);
+  }
+  .navbar .navbar-text {
+    color: #ecf0f1;
+  }
+  .navbar .navbar-text a {
+    color: rgb(75, 155, 218);
+  }
+  .navbar .navbar-text a:hover,
+  .navbar .navbar-text a:focus {
+    color: rgb(75, 155, 218); 
+  }
+  .navbar .navbar-nav .nav-link {
+    color: #BCBCBC;
+    border-radius: .25rem;
+    margin: 0 0.25em;
+  }
+  .navbar .navbar-nav .nav-link:not(.disabled):hover,
+  .navbar .navbar-nav .nav-link:not(.disabled):focus {
+    color: rgb(75, 155, 218);
+  }
+  .navbar .navbar-nav .dropdown-menu {
+    background-color: #BCBCBC;
+    border-color: #BCBCBC;
+  }
+  .navbar .navbar-nav .dropdown-menu .dropdown-item {
+    color: #ecf0f1;
+  }
+  .navbar .navbar-nav .dropdown-menu .dropdown-item:hover,
+  .navbar .navbar-nav .dropdown-menu .dropdown-item:focus,
+  .navbar .navbar-nav .dropdown-menu .dropdown-item.active {
+    color: rgb(75, 155, 218);
+    background-color: #BCBCBC;
+  }
+  .navbar .navbar-nav .dropdown-menu .dropdown-divider {
+    border-top-color: #BCBCBC;
+  }
+  .navbar .navbar-nav .nav-item.active .nav-link,
+  .navbar .navbar-nav .nav-item.active .nav-link:hover,
+  .navbar .navbar-nav .nav-item.active .nav-link:focus,
+  .navbar .navbar-nav .nav-item.show .nav-link,
+  .navbar .navbar-nav .nav-item.show .nav-link:hover,
+  .navbar .navbar-nav .nav-item.show .nav-link:focus {
+    color: rgb(75, 155, 218);
+    background-color: #BCBCBC;
+  }
+  .navbar .navbar-toggle {
+    border-color: #BCBCBC;
+  }
+  .navbar .navbar-toggle:hover,
+  .navbar .navbar-toggle:focus {
+    background-color: #BCBCBC;
+  }
+  .navbar .navbar-toggle .navbar-toggler-icon {
+    color: #ecf0f1;
+  }
+  .navbar .navbar-collapse,
+  .navbar .navbar-form {
+    border-color: #ecf0f1;
+  }
+  .navbar .navbar-link {
+    color: #ecf0f1;
+  }
+  .navbar .navbar-link:hover {
+    color: rgb(75, 155, 218);
+  }
+  
